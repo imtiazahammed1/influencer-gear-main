@@ -1,3 +1,4 @@
+/*----------------------------------------Font Import or Added Font---------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Martel&family=Roboto&display=swap');
 
 body{
@@ -7,6 +8,7 @@ body{
     margin: 0;
     background-color: white;
 }
+/*------header navigation----------------*/
 header nav h3{
     margin-left: 10%;
     margin-top: 6%;
@@ -14,6 +16,7 @@ header nav h3{
     font-size: 1.5em;
 
 }
+/*----------Fisrt Section Flexible Container---------------*/
 .flexible-container{
     display: flex;
     margin-bottom: 100px; 
@@ -33,6 +36,7 @@ h1{
     height: 80%;
     padding-left: 10%;
 }
+/*----------------Link Button---------------*/
 .link-button{
     text-decoration: none;
     text-align: center;
@@ -46,12 +50,14 @@ h1{
 .fa-arrow-right{
     padding-left: 7px;
 }
+/*--------------h2---------------------*/
 h2 {
     font-size: 25px;
     font-weight: 700px;
     text-align: center;
     margin-bottom: 5%;
 }
+/*---------------Second Section Container---------------*/
 .container{
     display: flex;
     justify-content: center;
@@ -101,6 +107,7 @@ h4{
 span{
     padding-left: 15px;
 }
+/*--------------Anchor button----------*/
 #anchor-button{
     margin-left: 85%;
     margin-top: 3%;
@@ -111,6 +118,7 @@ span{
     color: #f44336;
     font-weight: 700;
 }
+/*-------------------footer-----------------*/
 #background-color{
     margin-top: 5%;
     padding-top: 2%;
@@ -148,6 +156,7 @@ footer p {
     color: white;
     width: 50PX;
 }
+/*----------------------------mobile devices-----------------------------*/
 
 @media only screen and (max-width: 688px){
     header nav h3{
@@ -192,10 +201,12 @@ footer p {
         flex-direction: column;
     }
     #anchor-button{
-        margin-left: 70%;
+        margin-left: 67%;
     }
     
 }
+
+/*--------------------------tablet Devices---------------------------------*/
 
 @media only screen and (min-width:689px) and (max-width: 992px){
     header nav h3{
@@ -239,8 +250,5 @@ footer p {
     #anchor-button{
         margin-left: 80%%;
     }
-    
-
-
 }
 
