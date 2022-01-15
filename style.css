@@ -149,3 +149,98 @@ footer p {
     width: 50PX;
 }
 
+@media only screen and (max-width: 688px){
+    header nav h3{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .flexible-container{
+        display: block;
+        margin-left: 0;
+    }
+    .half-width{
+        width: 100%;
+    }
+    .half-width p{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        font-size: 2em;
+        font-weight: 700;
+    }
+    #hyperlink-button{
+        text-align: center;
+    }
+    .link-button{
+        text-align: center;
+    }
+    .half-width img{
+        width: 70%;
+        height: 70%;
+    }
+    h2 {
+        font-size: 25px;
+        font-weight: 700px;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .collections{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .collection{
+        flex-direction: column;
+    }
+    #anchor-button{
+        margin-left: 70%;
+    }
+    
+}
+
+@media only screen and (min-width:689px) and (max-width: 992px){
+    header nav h3{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .flexible-container{
+        display: block;
+        margin-left: 0;
+    }
+    .half-width{
+        width: 100%;
+    }
+    .half-width p{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        font-size: 2em;
+        font-weight: 700;
+    }
+    #hyperlink-button{
+        text-align: center;
+    }
+    .half-width img{
+        width: 75%;
+        height: 70%;
+    }
+    h2 {
+        font-size: 25px;
+        font-weight: 700px;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .collections{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .collection{
+        flex-direction: column;
+    }
+    #anchor-button{
+        margin-left: 80%%;
+    }
+    
+
+
+}
+
